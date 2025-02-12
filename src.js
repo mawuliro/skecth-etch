@@ -1,7 +1,7 @@
 function createGrid(size) {
     const container = document.getElementById("grid-container");
     container.innerHTML = ""; // Clear existing grid
-    const squareSize = 960 / size;
+    const squareSize = 500 / size;
     
     for (let i = 0; i < size * size; i++) {
         let square = document.createElement("div");
